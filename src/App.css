@@ -1,0 +1,19 @@
+/* Keep CRA defaults only if needed */
+.App {
+  text-align: center;
+}
+
+/* Remove CRA demo styling clutter (optional) */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Dark/Light Background Fix */
+html {
+  @apply bg-white text-neutral-900;
+}
+
+html.dark {
+  @apply bg-black text-neutral-100;
+}
